@@ -18,7 +18,7 @@ A local Retrieval-Augmented Generation (RAG) system for medical Q&A on **refract
 
 - Docker
 - Python 3.9+
-- CUDA-capable GPU
+- CUDA-capable GPU (tested on NVIDIA GeForce RTX 5060 Ti, 16 GB VRAM)
 
 ### 1. Start Qdrant
 

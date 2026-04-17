@@ -34,6 +34,7 @@ This project is a **domain-specific Retrieval-Augmented Generation (RAG) system*
 | **Evaluation — Scanning** | Giskard | Automated model scanning for hallucination, bias, robustness failures |
 | **Infrastructure** | Docker Compose | Isolated, reproducible Qdrant deployment |
 | **GPU Runtime** | PyTorch + CUDA | Required for quantized model inference |
+| **GPU** | NVIDIA GeForce RTX 5060 Ti (16 GB VRAM) | Runs Mistral-7B at 4-bit quant (~5 GB VRAM used) |
 
 ---
 
@@ -246,6 +247,9 @@ mistral-demo/
 ---
 
 ## Getting Started
+
+> **Hardware used:** NVIDIA GeForce RTX 5060 Ti · 16 GB VRAM · Driver 580.105.08
+> The 4-bit quantized model uses ~5 GB VRAM, leaving headroom for larger corpora and longer contexts.
 
 ### 1. Start the Vector Database
 
