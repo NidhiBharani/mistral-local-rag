@@ -1,0 +1,7 @@
+#RAGAS specific
+llama_index
+ragas
+unstructured
+openai
+unstructured[pdf]
+langchain-community

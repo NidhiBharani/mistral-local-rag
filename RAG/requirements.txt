@@ -1,0 +1,23 @@
+
+#nidhi-rag-demo.lan requirements.txt
+
+streamlit
+python-dotenv
+langchain==0.0.312
+sentence-transformers
+tenacity
+pandas
+numpy
+openai==0.28.1
+tiktoken
+pymupdf
+qdrant-client
+# CTransformers
+Torch
+
+#handle pdfs
+pypdf
+
+# #cache
+# # hashlib
+# gptcache
